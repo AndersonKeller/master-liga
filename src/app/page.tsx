@@ -1,3 +1,11 @@
+import { StyledHeader } from "./styles";
+
 export default function Home() {
-  return <main>Home</main>;
+  return (
+    <main>
+      <StyledHeader>
+        <p>Home</p>
+      </StyledHeader>
+    </main>
+  );
 }
