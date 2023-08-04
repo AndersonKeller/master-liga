@@ -1,11 +1,20 @@
-import { StyledHeader } from "./styles";
+import { MenuAside } from "@/components/menuAside/MenuAside";
+import { StyledHeader, StyledMain } from "./styles";
+import { MainSection } from "@/components/home/mainSection/MainSection";
+import { ListNextMatches } from "@/components/home/listNextMatches/ListNextMatches";
 
 export default function Home() {
   return (
-    <main>
+    <>
+      {" "}
       <StyledHeader>
         <p>Home</p>
       </StyledHeader>
-    </main>
+      <StyledMain>
+        <MenuAside />
+        <MainSection />
+        <ListNextMatches />
+      </StyledMain>
+    </>
   );
 }
