@@ -4,7 +4,15 @@ export const StyledMainSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 16px;
   width: 60%;
-  background-color: green;
+  justify-content: space-between;
+  & .divImg {
+    height: 78%;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  & .imgBanner {
+    width: 100%;
+    height: 100%;
+  }
 `;

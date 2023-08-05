@@ -9,6 +9,7 @@ export const GlobalStyles = css`
     --color-gray-200: #aaa6a6;
     --color-gray-300: #827c7c;
     --color-gray-400: #595454;
+    --color-gray-450: #4d4848;
     --color-gray-500: #353131;
     --color-gray-600: #1e1b1b;
 
@@ -25,18 +26,24 @@ export const GlobalStyles = css`
   *,
   *:before,
   *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   p {
     margin: 0;
   }
   body {
-    margin: 0;
-    padding: 0;
     list-style: none;
     -webkit-font-smoothing: antialiased;
     background-color: var(--color-gray-200);
     -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    display: flex;
+  }
+  ol,
+  li {
+    list-style: none;
   }
   button {
     cursor: pointer;

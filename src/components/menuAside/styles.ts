@@ -3,14 +3,14 @@ import { styled } from "@linaria/react";
 export const StyledMenuAside = styled.aside`
   display: flex;
   flex-direction: column;
-  padding: 16px;
   gap: 8px;
-  width: 25%;
+  width: 23%;
 `;
 export const StyledCardMenu = styled.div`
   background-color: var(--color-gray-50);
   padding: 16px 24px;
   border-radius: 16px;
+
   cursor: pointer;
   & p {
     font-weight: 600;

@@ -13,13 +13,12 @@ export const StyledHeader = styled.header`
   left: 0;
 `;
 export const StyledMain = styled.main`
-  min-height: 100vh;
   max-width: 1200px;
   position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  padding-top: 16px;
+  gap: 16px;
+  margin: auto;
 `;
